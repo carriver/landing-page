@@ -9,75 +9,53 @@
     <link rel="stylesheet" href=styles.css>
 </head>
 
-<body>
-    <header>
-        <div class="nav">
-            <div class="left">
-                <img id="profile" src=Public/profile.jpeg alt="Profile Picture">
-            </div>
-            <div class="right">
-                <ul>
-                    <li><a href="#" style="color:lightseagreen">GitHub</a></li>
-                    <li><a href="#" style="color:lightseagreen">LinkedIn</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="welcome">
-            <div class="left">
-                <h1 class="heading">Welcome to my landing page!</h1>
+    <body>
+        <div class="maincontainer">
+                
+            <nav class="navbar">
+                <div class="profile">
+                    <img src=resources/profile.jpeg alt="Profile Picture">
+                </div>
+                <div class="links">
+                    <a href="#">
+                        <img src=resources/GitHub-Mark-Light-64px.png alt="GitHub">
+                    </a>
+                    <a href="#">
+                        <img src=resources/LI-Logo-White.png alt="LinkedIn">
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="intro">
+                <h1>Welcome to my landing page!</h1>
                 <p>This website has been created to demonstrate my HTML and CSS skills while flexing with flexbox, pun intended.  &#128516;</p>
                 <p>Thank you for stopping by!</p>
-                <button style="color:white">Learn more about me!</button>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <h2>My Projects</h2>
-        <div class="projects-container">
-
-            <div class="project">
-                <div class="box"></div>
-                <p>1</p>
+                <button type="button">Learn more about me!</button>
             </div>
 
-            <div class="project">
-                <div class="box"></div>
-                <p>2</p>
+            <div class="projects">
+                <h2>My Recent Projects:</h2>
+                <div class="prj-content">
+                    <div>
+                        <p>1</p>
+                    </div>
+                    <div>
+                        <p>2</p>
+                    </div>
+                    <div>
+                        <p>3</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="project">
-                <div class="box"></div>
-                <p>3</p>
+            <div class="quotes">
+                <p>“Success is not final, failure is not fatal: It is the courage to continue that counts.”</p>
+                <b>— Winston Churchill</b>
             </div>
-
+            
+            <div class="footer">
+                <p>Copyright &copy; Carlos E. Rivera 2021</p>
             </div>
         </div>
-    </main>
-
-    <div class="quote">
-
-        <div>
-        <em>“Do not be embarrassed by your failures, learn from them and start again.”</em>
-        <p>—Richard Branson</p>
-        </div>
-
-        <div>
-        <em>“Success is not final, failure is not fatal: It is the courage to continue that counts.”</em>
-        <p>—Winston Churchill</p>
-        </div>
-
-        <div>
-        <em>“There is only one thing that makes a dream impossible to achieve: the fear of failure.”</em>
-        <p>—Paulo Coelho</p>
-        </div>
-
-    </div>
-
-    <footer>
-        Copyright &copy; Carlos E. Rivera 2021
-    </footer>
-    
-</body>
+    </body>
 </html>
